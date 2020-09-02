@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ye</h1>
+
+    <script src="simple.js">
+        /*En zombie*/
+        var zombie = {x:random(totalWidth), y:random(totalHeight),speed:5}
+
+
+        
+
+        /*Zombies*/
+
+        var zombies = [zombie];
+
+        /*Add zombies to list*/
+
+            for(i = 0; i <= 10; i++){
+                zombies.push({x:random(totalWidth), y:random(totalHeight)})
+            }
+
+        /*Update*/
+
+        function Update(){
+            ClearScreen();
+        var i = 0;
+            while(i < 10){
+
+                var zombies = zombie[i];
+                picture(zombie.x,zombie.y,"zombie.png")
+
+                if(mouse.x < zombie.x){
+                    zombie.x += speed;
+                    
+                    
+                }
+
+                i++;
+            }
+
+            
+
+        }
+
+        /*ClearScreen*/
+        
+        
+        /*while(i < 10) */
+        /*var zombie = zombies[i]*/
+        /*Picture */
+        /*Controls (mouse movement)*/
+        /*Collision detection*/
+    </script>
+</body>
+</html>
