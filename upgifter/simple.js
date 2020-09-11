@@ -1,3 +1,4 @@
+
 window.onload = init;
 
 Function.prototype.bind || (Function.prototype.bind = function(thisObj/*, ...boundArgs*/)

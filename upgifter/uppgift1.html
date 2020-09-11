@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="simple.js">
+
+        
+
+        function start()
+        {
+
+            for (var i = 1; i <= 30;i++){
+                
+                rectangle(25*i,100,10,10, "blue");
+
+            }
+
+            
+            
+
+            for (var i = 1; i <= 4;i++){
+                
+
+
+
+                if (i == 1) {
+                    rectangle(100*i,400,100,100, "blue");
+                }
+
+                else if(i == 2){
+                    circle(175*i,400,50,"yellow");
+                }
+                else if(i == 3){
+                    triangle(500,400,500,500,600,400,"green");
+                }
+                else if(i == 4){
+                    ring(746,400,50,8, "red");
+                }
+
+                
+
+            }
+            line(0,400,800,400,1, "black");
+            
+
+
+
+
+
+        }
+
+        
+
+
+    </script>
+
+</body>
+</html>
