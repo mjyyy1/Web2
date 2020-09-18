@@ -6,7 +6,8 @@
 
         var x = 0
         var negx = 0
-        var radian = 0.0872664626
+        var ang = 0
+        
         while (x <= 400) {
             
             line(0,0,x,200,1)
@@ -15,18 +16,17 @@
             line(0,200,x,0,1)
             line(400,200,x,0,1)
 
-        
+           
             x += 10
            negx -= 10
         }
 
-        while (x <= 100) {
-            
-            line(600,600,x*radian,600*radian)
+        while (ang <= 360) {
+            arc(ang,ang,ang,10,"red")
+            ang += 5
         }
-        
-
-        
+   
+     
 
     </script>
     <title>Document</title>
