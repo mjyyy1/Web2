@@ -2,6 +2,9 @@
 
 
 @mixin bgColorbutt {
-    background: rgb(192, 109, 231);
+    background: $buttoncolor;
+
+    margin: auto;
+    
     
 }
