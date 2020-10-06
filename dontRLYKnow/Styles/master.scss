@@ -2,8 +2,37 @@
 @import "./functions";
 
 
+header{
+@include _Header;
+height: 10vh;
+width: 90vw;
+margin: auto;
+border-left: black solid;
+border-right: black solid;
+border-bottom: black solid;
+
+.nav {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-color: chartreuse;
+    button{
+        height: 100%;
+        width: 100%;
+    }
+}
+#nav2,#nav4{
+    border-left: black solid;
+    border-right: black solid;
+}
+
+
+}
+
+
+
 .buttons {
     height: 30px;
     width: 40px;
-    @include bgColorbutt();
+    @include buttons();
 }

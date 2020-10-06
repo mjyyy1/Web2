@@ -1,3 +1,30 @@
+header {
+  background-color: #2bb4dd;
+  height: 10vh;
+  width: 90vw;
+  margin: auto;
+  border-left: black solid;
+  border-right: black solid;
+  border-bottom: black solid;
+}
+
+header .nav {
+  height: 100%;
+  width: 20%;
+  float: left;
+  background-color: chartreuse;
+}
+
+header .nav button {
+  height: 100%;
+  width: 100%;
+}
+
+header #nav2, header #nav4 {
+  border-left: black solid;
+  border-right: black solid;
+}
+
 .buttons {
   height: 30px;
   width: 40px;
