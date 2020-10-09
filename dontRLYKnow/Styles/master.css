@@ -15,9 +15,23 @@ header .nav {
   background-color: chartreuse;
 }
 
-header .nav button {
+header .nav a {
   height: 100%;
   width: 100%;
+}
+
+header .nav button {
+  background: #c06de7;
+  height: 100%;
+  width: 100%;
+}
+
+header .nav button:hover {
+  background: #f05ca6;
+}
+
+header .nav button::after {
+  background: #c06de7;
 }
 
 header #nav2, header #nav4 {

@@ -16,9 +16,20 @@ border-bottom: black solid;
     width: 20%;
     float: left;
     background-color: chartreuse;
-    button{
+    a{
         height: 100%;
         width: 100%;
+    }
+    button{
+        background: $buttoncolor;
+        height: 100%;
+        width: 100%;
+        &:hover{
+            background:$buttoncolorHover;
+        }
+        &::after{
+            background: $buttoncolor;
+        }
     }
 }
 #nav2,#nav4{
