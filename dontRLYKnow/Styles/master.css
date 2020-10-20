@@ -1,48 +1,10 @@
+body {
+  background-color: #6b6b6b;
+}
+
 header {
-  background-color: #2bb4dd;
-  height: 10vh;
-  width: 90vw;
-  margin: auto;
-  border-left: black solid;
-  border-right: black solid;
-  border-bottom: black solid;
-}
-
-header .nav {
-  height: 100%;
-  width: 20%;
-  float: left;
-  background-color: chartreuse;
-}
-
-header .nav a {
-  height: 100%;
+  background-color: #9c9c9c;
+  height: 100px;
   width: 100%;
-}
-
-header .nav button {
-  background: #c06de7;
-  height: 100%;
-  width: 100%;
-}
-
-header .nav button:hover {
-  background: #f05ca6;
-}
-
-header .nav button::after {
-  background: #c06de7;
-}
-
-header #nav2, header #nav4 {
-  border-left: black solid;
-  border-right: black solid;
-}
-
-.buttons {
-  height: 30px;
-  width: 40px;
-  background: #c06de7;
-  margin: auto;
 }
 /*# sourceMappingURL=master.css.map */

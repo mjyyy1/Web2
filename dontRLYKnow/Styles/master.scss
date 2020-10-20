@@ -1,48 +1,12 @@
 @import "./variables";
 @import "./functions";
 
+body{
+    background-color: $mainColor;
+}
 
 header{
 @include _Header;
-height: 10vh;
-width: 90vw;
-margin: auto;
-border-left: black solid;
-border-right: black solid;
-border-bottom: black solid;
-
-.nav {
-    height: 100%;
-    width: 20%;
-    float: left;
-    a{
-        height: 100%;
-        width: 100%;
-    }
-    button{
-        background: $secondaryColor;
-        height: 100%;
-        width: 100%;
-        &:hover{
-            background:$secondaryColor;
-        }
-        &::after{
-            background: $thirdColor;
-        }
-    }
-}
-#nav2,#nav4{
-    border-left: black solid;
-    border-right: black solid;
-}
-
-
-}
-
-
-
-.buttons {
-    height: 30px;
-    width: 40px;
-    @include buttons();
+height: 100px;
+width: 100%;
 }
