@@ -2,4 +2,8 @@
 
 @mixin _Header {
     background-color: $secondaryColor;
+    height: 100px;
+}
+@mixin _NoTextDec {
+    text-decoration: none;
 }

@@ -1,12 +1,50 @@
 @import "./variables";
 @import "./functions";
 
+
 body{
     background-color: $mainColor;
+    background-image: url(/dontRLYKnow/img/Dog.jpg),url(/dontRLYKnow/img/wood.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: 100vw;
+    height: 2000px;
+    
+    
 }
 
 header{
 @include _Header;
-height: 100px;
-width: 100%;
+border-bottom: black solid;
+display: flex;
+justify-content: space-between;
+opacity: .6;
+
+
+
+.nav{
+    
+    float: left;
+    width: 19%;
+    height: 100%;
+    background-color: $secondaryColor;
+    
+}
+    a{
+        text-align: center;
+        line-height: 100px;
+        width: 100%;
+        height: 100%;
+        color: pink;
+        
+        &:hover{
+            color: $thirdColor;
+            @include _NoTextDec;
+        }
+    }
+    button{
+        
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
 }
