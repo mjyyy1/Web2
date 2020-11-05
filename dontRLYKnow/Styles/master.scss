@@ -14,12 +14,12 @@ body{
 
 header{
 @include _Header;
-border-bottom: rgb(63, 63, 63) solid;
+
 display: flex;
-justify-content: space-between;
-opacity: 0.8;
+justify-content: space-around;
 position: fixed;
 width: 100%;
+opacity: 0.9;
 
 
 
@@ -28,9 +28,9 @@ width: 100%;
 .nav{
     
     float: left;
-    width: 19%;
+    width: 16%;
     height: 100%;
-    background-color: $linkColor;
+    background-color: $fourthColor;
     
 }
     a{
@@ -38,7 +38,7 @@ width: 100%;
         line-height: 100px;
         width: 100%;
         height: 100%;
-        color: pink;
+        color: black;
         
         
         
@@ -47,4 +47,14 @@ width: 100%;
             @include _NoTextDec;
         }
     }
+}
+#space{
+    height: 150px;
+    width: 100%;
+}
+#info{
+    height: 300px;
+    width: 40%;
+    float: left;
+    background:$secondaryColor;
 }
