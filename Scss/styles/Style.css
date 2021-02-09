@@ -46,4 +46,9 @@ button {
           flex-direction: column;
   background: lightcoral;
 }
+
+.nav > div{
+  width: 20%;
+      float: left;
+  }
 /*# sourceMappingURL=Style.css.map */

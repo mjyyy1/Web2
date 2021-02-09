@@ -2,13 +2,19 @@
 @import './header';
 
 
+
+
 button{
     @include flexCenter(column);
    @extend header;
    background: lightcoral;
 }
 
-
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(204, 207, 207);
+}
 
 
 
